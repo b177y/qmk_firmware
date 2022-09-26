@@ -39,7 +39,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ),
     // Layer 1 - 'one shot' - punctuation and to other layers
 	[1] = LAYOUT_ortho_4x12(
-            KC_ESC, KC_AT, KC_HASH, KC_DLR, KC_PERC,    KC_NO, KC_NO,       KC_CIRC, KC_AMPR, KC_ASTR, KC_SCLN, KC_COLN,
+            KC_ESC, KC_AT, LSFT(KC_3), KC_DLR, KC_PERC, 
+                                                        KC_NO, KC_NO,       KC_CIRC, KC_AMPR, KC_ASTR, KC_SCLN, KC_COLN,
             KC_TAB, KC_EQL, LALT(KC_RBRACKET), LALT(LSFT(KC_RBRACKET)), TD(DANCE_32),
                                                         KC_NO, KC_NO,       KC_BSLS, KC_LCBR, KC_RCBR, KC_PIPE, KC_ENT,
             KC_TILD, TD(DANCE_33), LALT(KC_LBRACKET), LALT(LSFT(KC_LBRACKET)), KC_DQUO,
