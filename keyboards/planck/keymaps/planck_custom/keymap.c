@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[2] = LAYOUT_ortho_4x12(
             KC_ESC, KC_MPLY, KC_MRWD, KC_MFFD, KC_UNDS, KC_NO, KC_NO,       KC_PMNS, KC_P7, KC_P8, KC_P9, KC_BSPC,
             KC_TAB, KC_NO, KC_VOLD, KC_VOLU, KC_PLUS,   KC_NO, KC_NO,       KC_PEQL, KC_P4, KC_P5, KC_P6, KC_ENT,
-            TO(4), KC_PAST, KC_BRID, KC_BRIU, KC_PDOT,  KC_NO, KC_NO,       KC_P0, KC_P1, KC_P2, KC_P3, KC_NO,
+            TO(4), KC_PAST, KC_BRID, KC_BRIU, KC_PDOT,  KC_NO, KC_NO,       KC_P0, KC_P1, KC_P2, KC_P3, KC_SLASH,
             KC_NO, KC_NO, KC_NO, TO(0), KC_LGUI,        KC_NO, KC_NO,       KC_RALT, KC_NO, KC_NO, KC_NO, KC_NO
         ),
     // Layer 3 - navigation
