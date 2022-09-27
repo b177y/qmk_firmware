@@ -1,0 +1,24 @@
+= Keyboard Layout Cheatsheet
+
+== Keymap
+
+image::keyboard-layout.png[]
+
+== Useful Shortcuts
+
+|===
+|Name |Layer |Keys to layer |shortcut (in colemak-dh terms) |config
+
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+
+|===
