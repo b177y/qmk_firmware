@@ -56,9 +56,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ),
     // Layer 3 - navigation
 	[3] = LAYOUT_ortho_4x12(
-            KC_ESC, KC_WH_L, KC_MS_U, KC_WH_R, KC_WHL_U,   KC_NO, KC_NO,       KC_WBAK, KC_NO, KC_NO, KC_WFWD, KC_BSPC,
-            KC_TAB, KC_MS_L, KC_MS_D, KC_MS_R, KC_WHL_D, KC_NO, KC_NO,       KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_ENT,
-            KC_NO, KC_NO, LCTL(KC_W), LCTL(KC_B), KC_DEL,  KC_NO, KC_NO,       KC_MS_BTN2, KC_BTN2, KC_ACL0, KC_ACL1, KC_ACL2,
+            KC_ESC, KC_WH_L, KC_MS_U, KC_WH_R, KC_WH_U,   KC_NO, KC_NO,       KC_WBAK, KC_NO, KC_NO, KC_WFWD, KC_BSPC,
+            KC_TAB, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D, KC_NO, KC_NO,       KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_ENT,
+            KC_NO, KC_NO, LCTL(KC_W), LCTL(KC_B), KC_DEL,  KC_NO, KC_NO,       KC_MS_BTN1, KC_BTN2, KC_ACL0, KC_ACL1, KC_ACL2,
             KC_NO, KC_NO, KC_NO, TO(0), KC_LCTL,          KC_NO, KC_NO,       KC_RALT, TO(1), KC_NO, KC_NO, KC_NO
         ),
     // Layer 4 - keyboard config
