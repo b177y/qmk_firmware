@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                         KC_NO, KC_NO,       KC_CIRC, KC_AMPR, KC_ASTR, KC_SCLN, KC_COLN,
             KC_TAB, KC_EQL, KC_NO, KC_NO, TD(DANCE_32),
                                                         KC_NO, KC_NO,       KC_BSLS, KC_LCBR, KC_RCBR, KC_PIPE, KC_ENT,
-            KC_TILD, TD(DANCE_33), KC_GRAVE, KC_NO, KC_DQUO,
+            KC_TILD, TD(DANCE_33), KC_GRAVE, LCTL(KC_B), KC_DQUO,
                                                         KC_NO, KC_NO,       KC_LBRC, KC_LPRN, KC_RPRN, KC_RBRC, TO(3),
             KC_NO, KC_NO, KC_NO, TO(0), KC_LSFT,        KC_NO, KC_NO,       KC_RALT, TO(2), KC_NO, KC_NO, KC_NO
         ),
@@ -56,17 +56,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ),
     // Layer 3 - navigation
 	[3] = LAYOUT_ortho_4x12(
-            KC_ESC, KC_WH_L, KC_MS_U, KC_WH_R, KC_NO,   KC_NO, KC_NO,       KC_WBAK, KC_NO, KC_NO, KC_WFWD, KC_BSPC,
-            KC_TAB, KC_MS_L, KC_MS_D, KC_MS_R, KC_LGUI, KC_NO, KC_NO,       KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_ENT,
-            KC_GRV, KC_MS_R, KC_WH_U, KC_WH_D, KC_DEL,  KC_NO, KC_NO,       KC_MS_L, KC_ACL0, KC_ACL1, KC_ACL2, KC_NO,
-            KC_NO, KC_NO, KC_NO, TO(0), KC_NO,          KC_NO, KC_NO,       KC_RALT, TO(1), KC_NO, KC_NO, KC_NO
+            KC_ESC, KC_WH_L, KC_MS_U, KC_WH_R, KC_WHL_U,   KC_NO, KC_NO,       KC_WBAK, KC_NO, KC_NO, KC_WFWD, KC_BSPC,
+            KC_TAB, KC_MS_L, KC_MS_D, KC_MS_R, KC_WHL_D, KC_NO, KC_NO,       KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_ENT,
+            KC_NO, KC_NO, LCTL(KC_W), LCTL(KC_B), KC_DEL,  KC_NO, KC_NO,       KC_MS_BTN2, KC_BTN2, KC_ACL0, KC_ACL1, KC_ACL2,
+            KC_NO, KC_NO, KC_NO, TO(0), KC_LCTL,          KC_NO, KC_NO,       KC_RALT, TO(1), KC_NO, KC_NO, KC_NO
         ),
     // Layer 4 - keyboard config
 	[4] = LAYOUT_ortho_4x12(
-            RGB_SPD, RGB_SPI, RGB_RMOD, RGB_MOD, RGB_TOG,
+            RGB_TOG, KC_NO, KC_NO, KC_NO, KC_NO,
                                                         KC_NO, KC_NO,       KC_NO, KC_NO, KC_NO, KC_NO, QK_BOOT,
-            RGB_VAD, RGB_VAI, RGB_HUD, RGB_HUI, KC_NO,         KC_NO, KC_NO,       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-            RGB_M_P, RGB_M_R, RGB_SAD, RGB_SAI, KC_NO,      KC_NO, KC_NO,       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+            KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,         KC_NO, KC_NO,       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+            KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,      KC_NO, KC_NO,       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
             KC_NO, KC_NO, KC_NO, TO(0), KC_NO,          KC_NO, KC_NO,       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
         )
 };

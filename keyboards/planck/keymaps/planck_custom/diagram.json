@@ -16,11 +16,10 @@
 [{y:1,c:"#ffbf82",w:2},"Layer 3"],
 ["ESC","wheel left","mouse up","wheel right","wheel up",{x:2},"back","","","forward","<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>"],
 ["<i class='kb kb-Tab-1'></i>","mouse left","mouse down",{n:true},"mouse right","wheel down",{x:2},"<i class='kb kb-Arrows-Left'></i>",{n:true},"<i class='kb kb-Arrows-Down'></i>","<i class='kb kb-Arrows-Up'></i>","<i class='kb kb-Arrows-Right'></i>","<i class='kb kb-Return-2'></i>"],
-["","left click","right click","ctrl-b","del",{x:2},"ctrl-w","accel 0","accel 1","accel 2",""],
+["","","ctrl-w","ctrl-b","del",{x:2},"left click","right click","accel 0","accel 1","accel 2"],
 [{x:3},"L0","ctrl",{x:2},"<i class='mss mss-Unicode-Alternate-3'></i>","L1"],
 [{y:1,c:"#f05d5d",w:2},"Layer 4"],
 ["RGB","","","","",{x:2},"","","","","RST"],
 ["","","",{n:true},"","",{x:2},"",{n:true},"","","",""],
 ["","","","","",{x:2},"","","","",""],
 [{x:3},"L0","",{x:2},"",""]
-
