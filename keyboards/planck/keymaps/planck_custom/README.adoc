@@ -45,4 +45,41 @@ image::keyboard-layout.png[]
 |L1, [mnei]
 |`noremap <silent> <C-[Left,Down,Up,Right]> :[ vertical ] resize [+,-]3<CR>`
 
+
+|change workspace
+|
+|
+|
+|
+
+|move window to workspace
+|
+|
+|
+|
+
+|next / prev workspace
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+
 |===
