@@ -1,3 +1,19 @@
+#include QMK_KEYBOARD_H
+
+enum {
+    SINGLE_TAP = 1,
+    SINGLE_HOLD,
+    DOUBLE_TAP,
+    DOUBLE_HOLD,
+    DOUBLE_SINGLE_TAP,
+    MORE_TAPS
+};
+
+static tap dance_state = {
+    .is_press_action = true,
+    .step = 0
+};
+
 void on_pipe_end(qk_tap_dance_state_t *state, void *user_data) {
     if(state->count == 3) {
         tap_code16(KC_PIPE);
