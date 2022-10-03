@@ -1,6 +1,9 @@
-#ifndef 10_PIPE_END_H
-#define 10_PIPE_END_H
 #include QMK_KEYBOARD_H
+
+typedef struct {
+    bool is_press_action;
+    uint8_t step;
+} tap;
 
 enum {
     SINGLE_TAP = 1,
@@ -58,5 +61,3 @@ void pipe_end_reset(qk_tap_dance_state_t *state, void *user_data) {
     }
     dance_state.step = 0;
 }
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef DANCE_H
-#define DANCE_H
+#pragma once
 #include QMK_KEYBOARD_H
 #include "10-pipe-end.h"
 
@@ -54,4 +53,3 @@ qk_tap_dance_action_t tap_dance_actions[] = {
         /* [BKSL_HME] = ACTION_TAP_DANCE_FN_ADVANCED(on_bksl_hme, bksl_hme_finished, bksl_hme_reset), */
         [PIPE_END] = ACTION_TAP_DANCE_FN_ADVANCED(on_pipe_end, pipe_end_finished, pipe_end_reset),
 };
-#endif
