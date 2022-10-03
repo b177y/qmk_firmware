@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[1] = LAYOUT_ortho_4x12(
             KC_ESC, KC_AT, LSFT(KC_3), KC_DLR, KC_PERC, 
                                                         KC_NO, KC_NO,       KC_CIRC, KC_AMPR, KC_ASTR, KC_SCLN, KC_COLN,
-            KC_TAB, KC_EQL, KC_NO, KC_NO, KC_QUOTE,
+            KC_TAB, KC_EQL, TD(SCREENSHOT_FILE), TD(SCREENSHOT_CLIP), KC_QUOTE,
                                                         KC_NO, KC_NO,       TD(BKSL_HME), KC_LCBR, KC_RCBR, TD(PIPE_END), KC_ENT,
             KC_TILD, LALT(KC_3), KC_GRAVE, LCTL(KC_B), KC_DQUO,
                                                         KC_NO, KC_NO,       KC_LBRC, KC_LPRN, KC_RPRN, KC_RBRC, TO(3),
