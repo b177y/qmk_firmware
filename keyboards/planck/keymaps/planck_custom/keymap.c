@@ -14,7 +14,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             KC_Q, KC_W, KC_F, KC_P, KC_B,               KC_NO, KC_NO,       KC_J, KC_L, KC_U, KC_Y, KC_BSPC,
             KC_A, KC_R, MT(MOD_LALT, KC_S), MT(MOD_LGUI,KC_T), KC_G,        
                                                         KC_NO, KC_NO,       KC_M, MT(MOD_RGUI, KC_N), MT(MOD_RALT, KC_E), KC_I, KC_O,
-            KC_Z, KC_X, KC_C, KC_D, KC_V,               KC_NO, KC_NO,       KC_K, KC_H, TD(DANCE_2), TD(DANCE_1), TD(DANCE_3),
+            KC_Z, KC_X, KC_C, KC_D, KC_V,               KC_NO, KC_NO,       KC_K, KC_H, TD(TD_COMMA_HYPHEN), TD(TD_FULLSTOP_EXCL), TD(TD_FSLASH_USCORE),
             KC_NO, KC_NO, KC_NO, MT(MOD_MEH,KC_SPACE), OSM(MOD_LSFT), KC_NO, KC_NO,       KC_LCTL, OSL(1), KC_NO, KC_NO, KC_NO
         ),
     // Layer 1 - 'one shot' - punctuation and to other layers
