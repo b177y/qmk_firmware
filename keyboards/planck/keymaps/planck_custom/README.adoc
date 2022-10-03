@@ -1,5 +1,5 @@
 = Keyboard Layout Cheatsheet
-:imagesdir: assets/images
+:imagesdir: docs/assets/images
 
 == Keymap
 
